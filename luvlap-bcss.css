@@ -20,9 +20,14 @@
 .menu-bar-nav{
 	display: none;
 }
+.menu-bar-nav ul{
+	background-color: lightgray;
+	width: 100%;
+}
 .menu-bar-nav a{
 	font-size: 16px;
   color: #2c2727;
+  width: 100%;
 }
 .navigation{
  float: right;
@@ -311,12 +316,10 @@
 	.logo{
 		width: 30%;
 		text-align: left;
-		margin-left: 0px;
+		margin-left: 15px;
 		margin-bottom: 10px;
 		float: left;
-
 	}
-
 	.main-header a{
 		display: none;
 	}
@@ -355,7 +358,50 @@
 	.menu-bar:hover .menu-bar-nav{
 		display: block;
 	}
+}
+@media only screen and (max-width:510px){
+
+
+.product-card-detail{
+		width: 100%;
+	}
+.shop-now-cart-1{
+	width: 100%;
+}
+.best-product-list{
+		width: 100%;
+}
+.testimonials-box{
+		width: 90%;margin-left: auto;
+		margin-right: auto;
+}
+.left-arrow{
+	display: none;}
+.right-arrow{
+	display: none;
 	}
 
-
+.Product-categories h1{
+	margin-top: 35px;
+	margin-bottom: 36px;
+  font-size: 23px;
+}
+.product-card-detail p{
+	margin-top: 20px;
+	margin-bottom: 34px;
+  font-size: 15px;
+}
+.best-seller-cotainer h1{
+	margin-top: 35px;
+	margin-bottom: 20px;
+	font-size: 23px;
+}
+.testimonials h1{
+	font-size: 23px;
+	margin-bottom: 20px;
+}
+.testimonials-box p{
+	font-size: 15px;
+	text-align: center;
+}
 }
